@@ -6,6 +6,12 @@
 
 `git remote add origin https://github.com/kamesh25x/ng6-demo-app.git`
 
+**Remove a remote git repository**
+```
+git remote add origin https://github.com/kamesh25x/ng6-demo-app.git
+rm .git/FETCH_HEAD
+```
+
 **Check status**
 
 `git status`
